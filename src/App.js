@@ -1,10 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import SpacebarCounter from './SpacebarCounter';
+import Counter from './Counter';
+import NoteList from './NoteList';
+import ToDo from './ToDo';
+import { HelloWorld, HelloName, HelloVar, TestJSX} from './HelloWorld';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <Counter></Counter> */}
+      {/* <NoteList></NoteList> */}
+      <HelloVar name="999"></HelloVar>
+      <ToDo></ToDo>
+      {/* <HelloWorld></HelloWorld>
+      <HelloName></HelloName>
+      <TestJSX></TestJSX> */}
+      {/* <SpacebarCounter></SpacebarCounter> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +30,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
