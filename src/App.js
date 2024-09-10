@@ -9,10 +9,10 @@ import { HelloWorld, HelloName, HelloVar, TestJSX} from './HelloWorld';
 function App() {
   return (
     <div className="App">
-      {/* <Counter></Counter> */}
+      <Counter></Counter>
       {/* <NoteList></NoteList> */}
-      <HelloVar name="999"></HelloVar>
-      <ToDo></ToDo>
+      {/* <HelloVar name="999"></HelloVar> */}
+      {/* <ToDo></ToDo> */}
       {/* <HelloWorld></HelloWorld>
       <HelloName></HelloName>
       <TestJSX></TestJSX> */}
